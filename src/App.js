@@ -1,25 +1,53 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import PortfolioContainer from "./components/PortfolioContainer";
 
-function App() {
+function importAll(r) {
+  return r.keys().map(r);
+}
+
+const images = importAll(require.context('./assets/images', false, /\.(png|jpe?g|svg)$/));
+
+console.log(images);
+
+
+export default function App(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <PortfolioContainer />
   );
 }
 
-export default App;
+
+// import React from 'react';
+// import { Header, Footer} from './components';
+// import { About, Works, Contact } from './components/sections';
+
+
+// // app to display in body - Header, Section Selected, and Footer.
+// function App() {
+
+//   const [currentSection, setCurrentSection] = useState('About');
+
+//   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
+//   const renderSection = () => {
+//       if (currentSection === 'About') {
+//       return <About />;
+//       }
+//       if (currentSection === 'Works') {
+//       return <Works />;
+//       }
+//       return <Contact />;
+//   };
+
+//   return (
+//   <>
+//     <Header
+//       currentSection={currentSection}
+//       handleSectionChange={handleSectionChange}
+//     ></Header>
+//     <main>{renderSection()}</main>
+//     <Footer></Footer>
+//   </>
+//   );
+// }
+
+// export default App;

@@ -16,30 +16,30 @@
 
 Website designed to show prospect employers my personal skills, qualifications, education, training, and experiences.
 
-## About:
+## About:  
 
-* name: Crystal Ripple
+- name: Crystal Ripple
 
-* alias: MaG33
+- alias: MaG33
 
-* location: Brenham, TX
+- location: Brenham, TX
 
-* passion: building
+- passion: building (crafts, mechanics, construction, and now computational programming using languages such as html, css, and javascript, used together directly or along side other technologies, to build dynamic websites.)
 
 ## Works:
 
-* Personal Works:<br>
-[Password Generator](https://zmag33z.github.io/week-3-challenge/)<br>
-[Javascript Quiz](https://zmag33z.github.io/week-4-challenge/)<br>
-[Work Day Scheduler](https://zmag33z.github.io/Week-5-Work-Day-Scheduler/)<br>
-[My Project Box](https://zmag33z.github.io/My-Project-Box/)<br>
-[The Tech Blog](https://the-tech-blog-post.herokuapp.com/)<br>
-[PWA - Text Editor](under construction)<br>
-[This Portfolio]()<br>
+- Personal Works:
+  - [Password Generator](https://zmag33z.github.io/week-3-challenge/)<br>
+  - [Javascript Quiz](https://zmag33z.github.io/week-4-challenge/)<br>
+  - [Work Day Scheduler](https://zmag33z.github.io/Week-5-Work-Day-Scheduler/)<br>
+  - [My Project Box](https://zmag33z.github.io/My-Project-Box/)<br>
+  - [The Tech Blog](https://the-tech-blog-post.herokuapp.com/)<br>
+  - [PWA - Text Editor](under construction)<br>
+  - [This Portfolio]()<br>
 
-* Group Works:<br>
-[The Box Project](https://marchetype.github.io/the-box-project/)<br>
-[Rate My TA](https://github.com/calebgdavidson/Rate_my_TA)<br>
+- Group Works:<br>
+  - [The Box Project](https://marchetype.github.io/the-box-project/)<br>
+  - [Rate My TA](https://github.com/calebgdavidson/Rate_my_TA)<br>
 
 ## Resume:
 
