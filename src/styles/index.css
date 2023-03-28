@@ -1,0 +1,48 @@
+header{
+    position: relative;
+    height: 75px;
+    background-color: var(--HFBG);
+    align-items: center;
+    padding: 10px;
+}
+
+header h1{
+    display: inline-block;
+    background-color: var(--WordBox);
+    color: var(--BoxWord);
+    padding: 0 10px;
+}
+
+img{
+    border-color: var(--WordBox);
+    border-style: solid;
+    border-width: 5px;
+    display: inline-block;
+}
+
+
+
+
+
+footer{
+    background-color: var(--HFBG);
+    text-align: center;
+}
+
+footer h4{
+    color: var(--WordBox);
+    padding: 4px 0;
+}
+
+
+@media screen and (min-width: 512px) {
+    header{
+        position: relative;
+    }
+    .nav{
+        position: absolute;
+    }
+
+
+    
+}

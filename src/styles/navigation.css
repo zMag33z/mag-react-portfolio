@@ -1,0 +1,34 @@
+
+.nav {
+    top: 10px;
+    right: 0;
+    margin-right: var(--Space);
+    align-items: center;
+}
+
+.nav-link{
+    color: var(--InactiveLink);
+    text-decoration: none;
+    align-content: center;
+    border-bottom-color: var(--InactiveLink);
+    border-bottom-style: solid;
+    border-width: 3px;
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+
+.active{
+    color: var(--ActiveLink);
+    border-bottom-color: var(--ActiveLink);
+    border-bottom-style: solid;
+}
+
+.drop-down{
+    border: none;
+    outline: none;
+    background: inherit;
+    border-bottom-color: var(--InactiveLink);
+    border-bottom-style: solid;
+
+}

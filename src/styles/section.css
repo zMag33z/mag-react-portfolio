@@ -1,0 +1,33 @@
+main {
+    margin-left: var(--Space);
+    margin-right: var(--Space);
+    display: inline-block;
+    min-height: 100%;    
+}
+
+.content{
+    margin-top: 30px; 
+}
+
+.content h3{
+    color: var(--MainFont);
+    text-align: right;
+    width: 247px;
+    margin: 0px 10px 30px 0px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+article{
+    /* max-width: 1492px; */
+    border-left-color: var(--BorderLine);
+    border-left-style: solid;
+    border-width: 5px;
+    display: inline-block;
+}
+
+.article {
+    margin-left: 30px;
+    color: black;
+    margin-bottom: 10px;   
+}

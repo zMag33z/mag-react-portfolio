@@ -2,13 +2,10 @@ import React from 'react';
 
 
 
-export default function Blog(props) {
-
-    let images = props;
-console.log(images);
+export default function Blog({ images }) {
   return (
     <>
-    <section className="Content">
+    <section className="personal">
 
            <h3 id="Work">Personal Works</h3>
 
@@ -45,7 +42,7 @@ console.log(images);
             </div>      
     </section>
 
-    <section className="Content">
+    <section className="group">
 
         <h3 id="Work">Group Works</h3>
 

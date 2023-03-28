@@ -1,55 +1,34 @@
-// import React from "react";
-// import PortfolioContainer from "./components/PortfolioContainer";
-
-// function importAll(r) {
-//   return r.keys().map(r);
-// }
-
-// const images = importAll(require.context('./assets/images', false, /\.(png|jpe?g|svg)$/));
-
-// console.log(images);
-
-
-// export default function App(){
-//   return (
-//     <PortfolioContainer images={images}/>
-//   );
-// }
-
-
 import React, {useState} from 'react';
 
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Footer from './components/Footer';
 
-import  About from './components/sections/About';
+import About from './components/sections/About';
 import Works from './components/sections/Works';
 import Resume from './components/sections/Resume';
 import Contact from './components/sections/Contact';
 
 
-// function importAll(r) {
-//   return r.keys().map(r);
-// }
+function importAll(r) {
+  return r.keys().map(r);
+};
 
-// const images = importAll(require.context('./assets/images', false, /\.(png|jpe?g|svg)$/));
-
-// console.log(images);
-
+const images = importAll(require.context('./assets/images', false, /\.(png|jpe?g|svg)$/));
 
 // app to display in body div root - Header, Section Selected, and Footer.
 export default function App() {
 
   const [currentSection, setCurrentSection] = useState('About');
 
-  // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
+  // This method is checking to see what the value of `currentSection` is. Depending on the value, we return the corresponding component to the render function.
   const renderSection = () => {
       if (currentSection === 'About') {
       return <About />;
       }
       if (currentSection === 'Works') {
-      return <Works />;
+      return <Works 
+              images={images}/>;
       }
       if(currentSection === 'Resume'){
       return <Resume />;
@@ -57,8 +36,10 @@ export default function App() {
       return <Contact />;
   };
 
+  // here we create a variable to equal the current section string value received from our navbar, and if this value changes, then it'll be functioned off to useState and record a new value.
   const handleSectionChange = (section) => setCurrentSection(section);
 
+  // then return the display of the section selected.
   return (
   <>
     <Header
@@ -66,13 +47,16 @@ export default function App() {
       handleSectionChange={handleSectionChange}
     />
 
-    <Hero />
+    <Hero
+      heroImg={images[2]}
+      selfImg={images[0]}
+    />
 
-    <main>{renderSection()}</main>
+    <main className='content'>{renderSection()}</main>
     
     <Footer />
   </>
 
   
   );
-}
+};

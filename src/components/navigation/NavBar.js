@@ -1,12 +1,12 @@
 import React from 'react';
+import '../../styles/navigation.css'
+
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 export default function NavBar({ currentSection, handleSectionChange }) {
   return (
-    <ul className="nav nav-tabs">
-
-      <li className="nav-item">
+    <nav className="nav nav-tabs">
         <a
           href="#about"
           onClick={() => handleSectionChange('About')}
@@ -15,18 +15,25 @@ export default function NavBar({ currentSection, handleSectionChange }) {
         >
           About
         </a>
-      </li>
-      <li className="nav-item">
+        <div className="all-works">
+          <button className="drop-down nav-link">Works</button>
+        </div>
         <a
-          href="#works"
+          href="#personal"
           onClick={() => handleSectionChange('Works')}
           // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentSection === 'Works' ? 'nav-link active' : 'nav-link'}
         >
-          Works
+          Personal Works
         </a>
-      </li>
-      <li className="nav-item">
+        <a
+          href="#personal"
+          onClick={() => handleSectionChange('Works')}
+          // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentSection === 'Works' ? 'nav-link active' : 'nav-link'}
+        >
+          Group Works
+        </a>
         <a
           href="#resume"
           onClick={() => handleSectionChange('Resume')}
@@ -36,8 +43,6 @@ export default function NavBar({ currentSection, handleSectionChange }) {
         >
           Resume
         </a>
-      </li>
-      <li className="nav-item">
         <a
           href="#contact"
           onClick={() => handleSectionChange('Contact')}
@@ -46,8 +51,8 @@ export default function NavBar({ currentSection, handleSectionChange }) {
         >
           Contact
         </a>
-      </li>
-    </ul>
+
+    </nav>
   );
 }
 

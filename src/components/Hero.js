@@ -1,14 +1,14 @@
 import React from 'react';
+import '../styles/hero.css'
 
-export default function Hero(){
+// hero image section - react was so kind to have informed me to toString for my url.
+export default function Hero({ heroImg, selfImg }){
     return (
         <>
-        <section>
-            <div className="BGSectionImg">
-                <img className="selfie" src="./assets/images/IMG_6066.jpg" />
-                <h2>&nbsp;zMaG33z&nbsp;</h2>
+            <div className="hero" style={{ backgroundImage: `url(${heroImg.toString()})`}}>
+                <img className="selfie" src={ selfImg } />
+                <h2>zMaG33z</h2>
             </div>
-        </section>
         </>
     );
 }

@@ -1,0 +1,32 @@
+:root {
+    --WordBox: rgb(63, 186, 202);
+    --BoxWord: black;
+    --MainFont: rgb(28, 48, 92);
+    --InactiveLink: rgb(63, 186, 202);
+    --ActiveLink: rgb(33, 126, 132);
+    --BorderLine:  rgb(28, 48, 92);
+    --HFBG: rgb(40, 44, 44);
+    --Space: 50px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body{
+    height: 100%;
+}
+
+/* container wrapper id provided by react in index template */
+/* #root{
+    min-height: 100%; 
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -30px;
+} */
