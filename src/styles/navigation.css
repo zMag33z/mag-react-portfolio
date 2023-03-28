@@ -18,25 +18,8 @@
 
 }
 
-.select-works{
-    display: inline-block;
-}
-
-.drop-down{
-    border: none;
-    outline: none;
-    background: inherit;
-    border-bottom-color: var(--InactiveLink);
-    border-bottom-style: solid;
-    cursor: pointer;
-}
-
 .active{
     color: var(--ActiveLink);
     border-bottom-color: var(--ActiveLink);
     border-bottom-style: solid;
-}
-
-.work-list{
-    display: none;
 }

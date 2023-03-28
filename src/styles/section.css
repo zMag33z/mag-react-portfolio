@@ -1,24 +1,16 @@
 main {
-    margin-left: var(--Space);
-    margin-right: var(--Space);
-    display: inline-block;
     min-height: 100%;    
 }
 
-.content{
-    height: calc(100vh - (275px + 56px));
-    margin-top: 30px; 
-}
-
 .content h3{
+    border-bottom-color: var(--BorderLine);
+    border-bottom-style: solid;
+    border-width: 5px;
     color: var(--MainFont);
-    margin: 0px 10px 30px 0px;
-    vertical-align: top;
-    display: inline-block;
+    padding: 5px 10px;
 }
 
 article{
-    /* max-width: 1492px; */
     border-left-color: var(--BorderLine);
     border-left-style: solid;
     border-width: 5px;
@@ -26,7 +18,59 @@ article{
 }
 
 .article {
-    margin-left: 30px;
     color: black;
     margin-bottom: 10px;   
 }
+
+.WorkContent {
+    border-left-color: var(--BorderLine);
+    border-left-style: solid;
+    border-width: 5px;
+    display: inline-block;
+}
+
+.lgTagFloat {
+    position: relative;
+    display: inline-block;
+}
+
+.smTagFloat {
+    position: relative;
+    display: inline-block;
+}
+
+.lgTopic {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  
+}
+
+.smTopic {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+   
+}
+
+.desktop {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.a2 {
+    position: absolute;
+    background-color: var(--WordBox);
+    color: var(--BoxWord);
+    text-decoration: none;
+    padding: 10px;
+
+
+}
+
+/* DOESN'T NEED BOTTOM ONCE SECTIONED OFF FROM ONE ANOTHER THROUGH NAVBAR*/
+.group, .personal{
+    width: 100%;
+}
+

@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(217, 221, 226);
+}
+
 header{
     position: relative;
     height: 75px;
@@ -35,6 +39,26 @@ footer h4{
 }
 
 
+/* mix between configure to mobile and desktop - first we'll function out the smaller settings and as it moves up changes will be made*/
+@media screen and (min-width: 270px) {
+    .content{
+        margin: var(--SmallSpace);
+        min-height: calc(100dvh - (275px + 56px));
+    }
+    .content h3{
+        margin-bottom: var(--SmallSpace);
+    }
+    .smTagFloat{
+        margin-top: var(--SmallSpace);
+    }
+    .article, .lgTagFloat, .smTagFloat{
+        margin-left: var(--SmallSpace);
+    }
+    .desktop{
+        display: none;
+    }
+}
+
 @media screen and (min-width: 512px) {
     header{
         position: relative;
@@ -42,7 +66,26 @@ footer h4{
     .nav{
         position: absolute;
     }
+    .content{
+        margin: var(--BigSpace);
+        min-height: calc(100dvh - (275px + 86px));
+    }
+    .content h3{
+        margin-bottom: var(--BigSpace);
+    }
+    .smTagFloat{
+        margin-top: var(--BigSpace);
+    }
+    .article, .lgTagFloat, .smTagFloat{
+    margin-left: var(--BigSpace);
+    }
+}
 
-
-    
+@media screen and (min-width: 640px){
+    .desktop{
+        display: block;
+    }
+    .mobile{
+        pointer-events: none;
+    }
 }

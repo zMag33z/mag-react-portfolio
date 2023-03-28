@@ -6,7 +6,8 @@
     --ActiveLink: rgb(33, 126, 132);
     --BorderLine:  rgb(28, 48, 92);
     --HFBG: rgb(40, 44, 44);
-    --Space: 50px;
+    --BigSpace: 30px;
+    --SmallSpace: 15px;
 }
 
 * {
