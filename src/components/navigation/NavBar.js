@@ -15,25 +15,28 @@ export default function NavBar({ currentSection, handleSectionChange }) {
         >
           About
         </a>
-        <div className="all-works">
+
+        <div className="select-works">
           <button className="drop-down nav-link">Works</button>
+          <div className="work-list">
+            <a
+              href="#personal"
+              onClick={() => handleSectionChange('Works')}
+              // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+              className={currentSection === 'Works' ? 'nav-link active' : 'nav-link'}
+            >
+              Personal Works
+            </a>
+            <a
+              href="#personal"
+              onClick={() => handleSectionChange('Works')}
+              // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+              className={currentSection === 'Works' ? 'nav-link active' : 'nav-link'}
+            >
+              Group Works
+            </a>
+          </div>
         </div>
-        <a
-          href="#personal"
-          onClick={() => handleSectionChange('Works')}
-          // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentSection === 'Works' ? 'nav-link active' : 'nav-link'}
-        >
-          Personal Works
-        </a>
-        <a
-          href="#personal"
-          onClick={() => handleSectionChange('Works')}
-          // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentSection === 'Works' ? 'nav-link active' : 'nav-link'}
-        >
-          Group Works
-        </a>
         <a
           href="#resume"
           onClick={() => handleSectionChange('Resume')}
