@@ -1,6 +1,6 @@
-# Mag's Personal Portfolio
+# Mag's Professional Portfolio
 
-## This is a personal portfolio built using React's technological library.
+## This is a Professional Portfolio built using React's technological library.
 
 ### Table of Contents
 
@@ -12,9 +12,13 @@
 - [Locations]()
 - [License]()
 
+## Design:
+
+*This* 'Professional Portfolio' react site was a class assignment.  In week-2 of bootcamp, class was given an assignment to create a Portfolio using css and html 'ONLY'.  In week-20, class was given a new direction to follow using 'React'.  The visual aspect/design of *this* Portfolio was based off of week 2's assignment.  You may [*click here*](https://zmag33z.github.io/week-2-challenge/) to view week-2's assignment.
+
 ## Usage:
 
-Website designed to show prospect employers my personal skills, qualifications, education, training, and experiences.
+Website designed to show prospect employers my skills, qualifications, education, training, and experiences.
 
 ## About:  
 
@@ -24,7 +28,7 @@ Website designed to show prospect employers my personal skills, qualifications, 
 
 - location: Brenham, TX
 
-- passion: building (crafts, mechanics, construction, and now computational programming using languages such as html, css, and javascript, used together directly or along side other technologies, to build dynamic websites.)
+- passion: building (crafts, mechanics, construction, and now computational programming using languages such as html, css, and javascript, used together directly or along side other technologies, building dynamic websites.)
 
 ## Works:
 

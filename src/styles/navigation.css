@@ -1,5 +1,4 @@
-
-.nav {
+.nav{
     top: 10px;
     right: 0;
     margin-right: var(--Space);
@@ -22,4 +21,30 @@
     color: var(--ActiveLink);
     border-bottom-color: var(--ActiveLink);
     border-bottom-style: solid;
+}
+
+
+
+
+.nav2{
+    border-left-color: var(--BorderLine);
+    border-left-style: solid;
+    border-width: 5px;
+}
+
+.desktop a{
+    /* width: max(75px, 50%); */
+    /* height: max(75px, 100%); */
+    /* height: 100px; */
+    font-size: max(16px, 2vw);
+}
+
+.nav2 a{
+    color: var(--BoxWord);
+    font-size: 110%;
+    text-decoration: none;
+    padding: 15px 0;
+    border-bottom-color: var(--BorderLine);
+    border-bottom-style: solid;
+    border-width: 5px;
 }
