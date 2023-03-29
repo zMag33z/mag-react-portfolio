@@ -47,13 +47,13 @@ footer h4{
     .smTagFloat{
         margin-top: var(--SmallSpace);
     }
-    .article, .lgTagFloat, .smTagFloat{
+    .article, .lgTagFloat, .smTagFloat, .row{
         margin-left: var(--SmallSpace);
     }
     .desktop{
         display: none;
     }
-    .a3{
+    .nav2 a{
         display: block;
         margin-top: var(--SmallSpace);
         margin-left: var(--SmallSpace);
@@ -114,4 +114,7 @@ footer h4{
         width: 165px;
         margin: 0 30px;
     }
+    .col-25, .col-75, input[type=submit]{
+        text-align: center;
+    } 
 }

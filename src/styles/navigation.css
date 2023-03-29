@@ -1,7 +1,7 @@
 .nav{
     top: 10px;
     right: 0;
-    margin-right: var(--Space);
+    margin-right: var(--SmallSpace);
     align-items: center;
 }
 
@@ -30,6 +30,7 @@
     border-left-color: var(--BorderLine);
     border-left-style: solid;
     border-width: 5px;
+    margin-bottom: inherit;
 }
 
 .desktop a{

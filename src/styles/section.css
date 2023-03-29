@@ -2,6 +2,12 @@ main {
     min-height: 100%;    
 }
 
+.border-left{
+    border-left-color: var(--BorderLine);
+    border-left-style: solid;
+    border-width: 5px;
+}
+
 .content h3{
     border-bottom-color: var(--BorderLine);
     border-bottom-style: solid;
@@ -11,9 +17,7 @@ main {
 }
 
 article{
-    border-left-color: var(--BorderLine);
-    border-left-style: solid;
-    border-width: 5px;
+
     display: inline-block;
 }
 
@@ -23,9 +27,7 @@ article{
 }
 
 .WorkContent {
-    border-left-color: var(--BorderLine);
-    border-left-style: solid;
-    border-width: 5px;
+
     display: inline-block;
 }
 
@@ -59,7 +61,7 @@ article{
     left: 0;
 }
 
-.a2 {
+.desktop a{
     position: absolute;
     background-color: var(--WordBox);
     color: var(--BoxWord);
@@ -68,9 +70,3 @@ article{
 
 
 }
-
-/* DOESN'T NEED BOTTOM ONCE SECTIONED OFF FROM ONE ANOTHER THROUGH NAVBAR*/
-.group, .personal{
-    width: 100%;
-}
-

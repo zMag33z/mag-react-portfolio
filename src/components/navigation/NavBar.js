@@ -6,7 +6,7 @@ import '../../styles/navigation.css'
 // We assign them to their own variable names
 export default function NavBar({ currentSection, handleSectionChange }) {
   return (
-    <nav className="nav nav-tabs">
+    <nav className="nav">
       <a
         href="#about"
         onClick={() => handleSectionChange('About')}
@@ -47,13 +47,3 @@ export default function NavBar({ currentSection, handleSectionChange }) {
     </nav>
   );
 }
-
-
-
-
-<nav class="nav">
-    <a class="a1" href="#About" title="About Me">&nbsp;About Me&nbsp;</a>
-    <a class="a1" href="#Work" title="Work">&nbsp;Work&nbsp;</a>
-    <a class="a1" href="#Contact" title="Contact Me">&nbsp;Contact Me&nbsp;</a>
-    <a class="a1" href="" title="N/A">&nbsp;Resume&nbsp;</a>
-</nav>

@@ -5,7 +5,7 @@
     background-position: 1% 80%;
 }
 
-h2 {
+.hero h2 {
     position: absolute;
     bottom: 30px;
     right: 0;
@@ -13,7 +13,7 @@ h2 {
     background-color: var(--WordBox);
     float: right;
     margin-top: 130px;
-    margin-right: var(--Space);
+    margin-right: var(--SmallSpace);
     padding: 0 10px;
 }
 
