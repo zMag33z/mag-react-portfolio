@@ -63,7 +63,7 @@ Website designed to show prospect employers my skills, qualifications, education
 
 * GitHub Repository Code: https://github.com/zMag33z/mag-react-portfolio
 
-* Live GitHub Pages:
+* Live GitHub Pages:  https://zmag33z.github.io/mag-react-portfolio/
 
 ## License:
   
@@ -74,13 +74,3 @@ See *Terms & Conditions* of the license [***here***](https://opensource.org/lice
 <br>
 
 ### [**Back to top**](#)
-
-### note: replace this back in package json when ready to deploy
-```
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  ```
