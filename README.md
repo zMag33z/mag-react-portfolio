@@ -47,11 +47,13 @@ Website designed to show prospect employers my skills, qualifications, education
 
 ## Resume:
 
-[Resume in progress...](drive link here)
+[Resume in progress...](https://docs.google.com/document/d/1gS5xWgMwF8JPpDARhYrhlmFoH84eUiTNLMF9noqAQdk/edit?usp=sharing)
 
 ## Contact:
 
 * GitHub: https://github.com/zMag33z
+
+* LinkedIn: https://linkedin.com/in/crystal-ripple-80a640270
 
 * email: mag33.cdh@gmail.com
 

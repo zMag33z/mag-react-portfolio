@@ -8,7 +8,7 @@ main {
     border-width: 5px;
 }
 
-.content h3{
+.content h3, h4{
     border-bottom-color: var(--BorderLine);
     border-bottom-style: solid;
     border-width: 5px;
@@ -17,7 +17,6 @@ main {
 }
 
 article{
-
     display: inline-block;
 }
 
@@ -27,10 +26,10 @@ article{
 }
 
 .WorkContent {
-
     display: inline-block;
 }
 
+/* no longer difference in size */
 .lgTagFloat {
     position: relative;
     display: inline-block;
@@ -55,18 +54,51 @@ article{
    
 }
 
+/* when size is over 640 desktop div shows*/
 .desktop {
     position: absolute;
     top: 0;
     left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .desktop a{
     position: absolute;
-    background-color: var(--WordBox);
-    color: var(--BoxWord);
+    display: none;
+    width: 100%;
+    height: 100%;
+    color: var(--InactiveLink);
     text-decoration: none;
-    padding: 10px;
-
-
+    text-align: center;
+    padding-top: 10%;
+    font-size: max(32px, 4vw);
 }
+
+.desktop:hover a{
+    display: block;
+}
+
+.labels h3{
+    font-size: 150%;
+    margin-top: 15px;
+}
+
+.labels p{
+    margin: 10px;
+}
+
+.skills{
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.skill-type{
+    display: inline-block;
+    margin-left: var(--SmallSpace);
+}
+
+ul{
+    margin: 10px;
+}
+

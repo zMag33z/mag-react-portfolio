@@ -17,6 +17,7 @@ header h1{
     padding: 0 10px;
 }
 
+/* all hero and works images style */
 img{
     border-color: var(--WordBox);
     border-style: solid;
@@ -35,8 +36,9 @@ footer h4{
 }
 
 
-/* mix between configuration of mobile and desktop - first we'll function out the smaller settings and as it moves up changes will be made*/
+/* media screen size configurations*/
 @media screen and (min-width: 270px) {
+    /* content class is the rendered Section in app.js*/
     .content{
         margin: var(--SmallSpace);
         min-height: calc(100dvh - (275px + 56px));
@@ -59,8 +61,10 @@ footer h4{
         margin-left: var(--SmallSpace);
 
     }
+    .skills{
+        flex-direction: column;
+    }
 }
-
 
 @media screen and (min-width: 512px) {
     header{
@@ -83,7 +87,6 @@ footer h4{
     .article, .lgTagFloat, .smTagFloat{
     margin-left: var(--BigSpace);
     }
-
 }
 
 @media screen and (min-width: 640px){
@@ -116,5 +119,20 @@ footer h4{
     }
     .col-25, .col-75, input[type=submit]{
         text-align: center;
-    } 
+    }
+    .skills{
+        flex-direction: row;
+    }
+    li{
+        padding: 2px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .labels h3{
+        width: 79%;
+    }
+    .mobile{
+        width: 300px;
+    }
 }

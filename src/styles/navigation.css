@@ -33,13 +33,6 @@
     margin-bottom: inherit;
 }
 
-.desktop a{
-    /* width: max(75px, 50%); */
-    /* height: max(75px, 100%); */
-    /* height: 100px; */
-    font-size: max(16px, 2vw);
-}
-
 .nav2 a{
     color: var(--BoxWord);
     font-size: 110%;
