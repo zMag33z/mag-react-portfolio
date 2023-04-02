@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/github.io/mag-react-portfolio/static/css/main.754c2fcb.css",
+    "main.js": "/github.io/mag-react-portfolio/static/js/main.0b5a7d35.js",
+    "static/media/theboxhaha.png": "/github.io/mag-react-portfolio/static/media/theboxhaha.0d14dbe0a27ba0073683.png",
+    "static/media/fshinstartrials.jpg": "/github.io/mag-react-portfolio/static/media/fshinstartrials.704cd9684b0289726cf4.jpg",
+    "static/media/IMG_6066.jpg": "/github.io/mag-react-portfolio/static/media/IMG_6066.f13caf4625e00a40f7bb.jpg",
+    "static/media/PreWork.png": "/github.io/mag-react-portfolio/static/media/PreWork.25523eeea7846db9df6f.png",
+    "static/media/team-gen.png": "/github.io/mag-react-portfolio/static/media/team-gen.e60bfb6322b364f8c91b.png",
+    "static/media/ta-review.png": "/github.io/mag-react-portfolio/static/media/ta-review.ed4629a82112495dfdf8.png",
+    "static/media/workday.png": "/github.io/mag-react-portfolio/static/media/workday.b61d07d8c9ff96ecb005.png",
+    "static/media/quiz.png": "/github.io/mag-react-portfolio/static/media/quiz.9120d0808e10349babbd.png",
+    "index.html": "/github.io/mag-react-portfolio/index.html",
+    "main.754c2fcb.css.map": "/github.io/mag-react-portfolio/static/css/main.754c2fcb.css.map",
+    "main.0b5a7d35.js.map": "/github.io/mag-react-portfolio/static/js/main.0b5a7d35.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.754c2fcb.css",
+    "static/js/main.0b5a7d35.js"
+  ]
+}
