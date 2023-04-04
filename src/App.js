@@ -11,6 +11,7 @@ import Contact from './components/sections/Contact';
 
 
 function importAll(r) {
+  console.log(r)
   return r.keys().map(r);
 };
 
