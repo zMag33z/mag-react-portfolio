@@ -74,3 +74,13 @@ See *Terms & Conditions* of the license [***here***](https://opensource.org/lice
 <br>
 
 ### [**Back to top**](#)
+
+
+* ***ESlint issure removed temp***
+```  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+```

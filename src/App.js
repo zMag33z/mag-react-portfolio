@@ -9,15 +9,14 @@ import Works from './components/sections/Works';
 import Resume from './components/sections/Resume';
 import Contact from './components/sections/Contact';
 
-
-function importAll(r) {
-  console.log(r)
-  return r.keys().map(r);
+// collecting all images from assets/images folder
+function importAll(imgContext) {
+  return imgContext.keys().map(imgContext);
 };
 
 const images = importAll(require.context('./assets/images', false, /\.(png|jpe?g|svg)$/));
 
-// app to display in body div root - Header, Section Selected, and Footer.
+// app to display in body div root - Header, Section Render(Selected,  Footer.
 export default function App() {
 
   const [currentSection, setCurrentSection] = useState('About');
@@ -56,8 +55,6 @@ export default function App() {
     <main className='content'>{renderSection()}</main>
     
     <Footer />
-  </>
-
-  
+  </>  
   );
 };

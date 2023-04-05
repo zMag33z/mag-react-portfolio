@@ -1,3 +1,4 @@
+// still working styling here used some quick fixes for deployment
 import React from 'react';
 
 
@@ -6,6 +7,7 @@ export default function Resume() {
     <>
       <section className="personal">
         <h3>Resume</h3>
+        
           <div className="labels border-left">
 
             <h3>Me</h3>
@@ -60,7 +62,7 @@ export default function Resume() {
                       <li>Progressive Web Applications (PWA)</li>
                       <li>MongoDB</li>
                       <li>Mongoose</li>
-                      <li>GraphQL</li>
+                      <li>Apollo GraphQL</li>
                       <li>React</li>
                       <li>MERN</li>
                       <li>State</li>
@@ -68,8 +70,11 @@ export default function Resume() {
                 </div>
 
               </div>
-
+              
           </div>
+          <ul>
+            <a href="https://docs.google.com/document/d/1gS5xWgMwF8JPpDARhYrhlmFoH84eUiTNLMF9noqAQdk/edit?usp=sharing">Click here for 'Online Documentation'.</a>
+          </ul>
         </section>
     </>
   );

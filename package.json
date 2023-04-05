@@ -2,7 +2,7 @@
   "name": "mag-react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zmag33z/github.io/mag-react-portfolio",
+  "homepage": "https://zmag33z.github.io/mag-react-portfolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
