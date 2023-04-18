@@ -9,7 +9,7 @@ export default function Works({ images }) {
            <h3 id="personal">Personal Works</h3>
 
             <div className="WorkContent border-left">
-
+                {/* put images in separate folders, create array come back and map through images */}
                 <div className="lgTagFloat">
                     <a href="https://zmag33z.github.io/prework-study-guide/" className="mobile" title="Pre-Work Study Guide"><img className="lgTopic" src={ images[1]} width="756"  /></a>
                         <div className="desktop">
@@ -38,6 +38,13 @@ export default function Works({ images }) {
                     </div>
                 </div>
 
+                <div className="smTagFloat">
+                    <a href="https://recipe-p3-mern.herokuapp.com/" className="mobile" title="Team Profile Generator Applicaiton"><img className="smTopic" src={images[6]} width="756"  /></a>
+                    <div className="desktop">
+                        <a href="https://recipe-p3-mern.herokuapp.com/" title="Team Profile Generator Applicaiton">Click to View</a>
+                    </div>
+                </div>
+                
             </div>      
     </section>
 
