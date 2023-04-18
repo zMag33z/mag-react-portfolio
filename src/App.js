@@ -13,8 +13,7 @@ import Contact from './components/sections/Contact';
 function importAll(imgContext) {
   return imgContext.keys().map(imgContext);
 };
-
-const images = importAll(require.context('./assets/images', false, /\.(png|jpe?g|svg)$/));
+const images = importAll(require.context('./assets/images/about', false, /\.(png|jpe?g|svg)$/));
 
 // app to display in body div root - Header, Section Render(Selected,  Footer.
 export default function App() {
@@ -27,8 +26,7 @@ export default function App() {
       return <About />;
       }
       if (currentSection === 'Works') {
-      return <Works 
-              images={images}/>;
+      return <Works />;
       }
       if(currentSection === 'Resume'){
       return <Resume />;
@@ -48,7 +46,7 @@ export default function App() {
     />
 
     <Hero
-      heroImg={images[2]}
+      heroImg={images[1]}
       selfImg={images[0]}
     />
 
