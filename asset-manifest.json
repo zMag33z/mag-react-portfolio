@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mag-react-portfolio/static/css/main.754c2fcb.css",
-    "main.js": "/mag-react-portfolio/static/js/main.eb9dae25.js",
+    "main.js": "/mag-react-portfolio/static/js/main.1a567dea.js",
     "static/media/Homepage.png": "/mag-react-portfolio/static/media/Homepage.1a771f3c4a38f4767fa5.png",
     "static/media/theboxhaha.png": "/mag-react-portfolio/static/media/theboxhaha.0d14dbe0a27ba0073683.png",
     "static/media/fshinstartrials.jpg": "/mag-react-portfolio/static/media/fshinstartrials.704cd9684b0289726cf4.jpg",
@@ -13,10 +13,10 @@
     "static/media/quiz.png": "/mag-react-portfolio/static/media/quiz.9120d0808e10349babbd.png",
     "index.html": "/mag-react-portfolio/index.html",
     "main.754c2fcb.css.map": "/mag-react-portfolio/static/css/main.754c2fcb.css.map",
-    "main.eb9dae25.js.map": "/mag-react-portfolio/static/js/main.eb9dae25.js.map"
+    "main.1a567dea.js.map": "/mag-react-portfolio/static/js/main.1a567dea.js.map"
   },
   "entrypoints": [
     "static/css/main.754c2fcb.css",
-    "static/js/main.eb9dae25.js"
+    "static/js/main.1a567dea.js"
   ]
 }
